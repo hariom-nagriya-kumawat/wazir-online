@@ -1,0 +1,95 @@
+
+
+/* CSS */
+.Go-btn {
+  background-color: var(--primary);;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.Go-btn:hover,
+.Go-btn:focus {
+  background-color: #F082AC;
+}
+
+.text1{
+    color: var(--primary);
+   
+  }
+  .bg-lotus{
+    background-color: #183F45; border-radius: 5px;
+  }
+  .bg-kia{
+    background-color:#6D0BCF; border-radius: 5px;
+  }
+  .bg-dimond{
+    background-color:#C12A67; border-radius: 5px;
+  }
+  .bg-radhe{
+    background-color: #0E7990; border-radius: 5px;
+  }
+.bg-sky{
+    background-color: #3C3C3C;
+}
+.bg-ibet{
+    background-color: #000;
+}
+.bg-hypex{
+    background-color: #00143D;
+}
+#floater {
+    position: fixed;
+    bottom: 50vh;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    z-index: 10001;
+    border-radius: 3px 0 0 3px;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+   
+}
+
+.vert-move {
+    height: 50px;
+    width: 50px;
+    -webkit-animation: mover 3s infinite  alternate;
+    animation: mover 3s infinite  alternate;
+}
+.vert-move {
+    -webkit-animation: mover 3s infinite  alternate;
+    animation: mover 3s infinite  alternate;
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-75px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-75px); }
+}
